@@ -24,7 +24,7 @@ longScreenshot.startScreenshot();
 ```
 
 
-##Step 3: 
+## Step 3: 
 
 Stop Screenshot process 
 
@@ -32,7 +32,7 @@ Stop Screenshot process
 longScreenshot.stopScreenshot();
 ```
 
-##Step 4: 
+## Step 4: 
 
 If all goes fine bitmap will be recieved  
 
