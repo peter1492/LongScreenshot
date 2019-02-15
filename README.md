@@ -3,6 +3,31 @@ This tool makes a number of screenshots, scrolling screen content automatically 
 
 ![Alt text](https://raw.githubusercontent.com/PGSSoft/scrollscreenshot/master/illustration.png "Optional Title")
 
+
+### Prerequisites
+
+Add this in your root build.gradle file (not your module build.gradle file):
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url "https://jitpack.io" }
+	}
+}
+```
+
+### Dependency
+
+Add this to your module's build.gradle file (make sure the version matches the JitPack badge above):
+
+```
+dependencies {
+	...
+    implementation 'com.github.peter1492:LongScreenshot:1.0'
+}
+```
+
 ### How to use
 ## Step 1: 
 
